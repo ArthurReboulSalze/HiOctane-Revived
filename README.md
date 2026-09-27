@@ -37,7 +37,7 @@ Intro video and eligible texture restoration can be set independently to **NO UP
 
 ## The project
 
-**Hi-Octane Revived** is a personal project to bring **Hi-Octane**, the futuristic racing and combat game created by **Bullfrog Productions in 1995**, to **Unreal Engine 5**. Developed by **Arthur Reboul Salze**, it reinterprets the game and its engine to explore how this universe can evolve with modern tools.
+**Hi-Octane Revived** is a personal project to bring **Hi-Octane**, the futuristic racing and combat game created by **Bullfrog Productions in 1995**, to **Unreal Engine 5**. It reinterprets the game and its engine to explore how this universe can evolve with modern tools.
 
 The aim is to capture its identity: speed, hovercrafts, firefights, boosts, recharging stations and tracks that transform during a race. Vehicle handling and balance are allowed to evolve, with the focus on the **overall gameplay**, the pace of the race and the driving experience.
 
