@@ -10,10 +10,11 @@
 </p>
 
 <p align="center">
-  <strong>IN DEVELOPMENT</strong> &nbsp;·&nbsp; <strong>ORIGINAL &amp; REVIVED</strong> &nbsp;·&nbsp; <strong>PROJECT SHOWCASE</strong>
+  <strong>WINDOWS ALPHA 0.2.13 AVAILABLE</strong> &nbsp;·&nbsp; <strong>ORIGINAL &amp; REVIVED</strong>
 </p>
 
 <p align="center">
+  <a href="https://artur3d.itch.io/hi-octane-revived"><strong>Download the alpha on itch.io</strong></a> ·
   <a href="#the-project">The project</a> ·
   <a href="#gameplay">Gameplay</a> ·
   <a href="#two-editions">Two editions</a> ·
@@ -23,6 +24,16 @@
 </p>
 
 ---
+
+## Download the Windows alpha
+
+**[Download Hi-Octane Revived — Alpha 0.2.13 on itch.io](https://artur3d.itch.io/hi-octane-revived)**
+
+Free Windows 64-bit alpha, including both **Original** and **Revived**, plus the **Vehicle Tuning Editor**.
+
+> **You need your own copy of the original Hi-Octane to play.** Original game files are not included in the download. On first launch, select your original game folder containing **DATA, MAPS, OBJECTS and SOUND**; the included tools reconstruct the resources locally and cache them for later launches.
+
+Intro video and eligible texture restoration can be set independently to **NO UPSCALE**, **FAST** or **AI**. Installation instructions, included dependencies and current limitations are explained on the [itch.io page](https://artur3d.itch.io/hi-octane-revived).
 
 ## The project
 
@@ -52,12 +63,14 @@ A look at the project in its current state. Click the image below to watch the g
 
 Two editions have been developed in Unreal Engine. Each has its own assets and settings, with a shared welcome screen to choose the experience.
 
+**The Original edition is nearly complete**, with final fixes and polish remaining. **Revived is still in active development**, with more substantial visual and gameplay changes planned.
+
 | | **Original** | **Revived** |
 | :--- | :--- | :--- |
 | **Direction** | An edition closer to the look and experience of the original game. | An update to both the graphics **and** the gameplay. |
 | **Presentation** | Tracks, vehicles, menus and HUD that stay close to the original reference. | New vehicle models, PBR materials, redesigned presentation and effects. |
 | **Handling** | A starting point informed by the original mechanics and Alexander Wolf's recreation. | Independent settings to develop vehicle handling and balance. |
-| **Rendering** | The original visual identity carried into the Unreal port. | Modern Unreal technologies: **Nanite, Lumen, Niagara and Virtual Shadow Maps**. |
+| **Rendering** | The original visual identity carried into the Unreal port. | Modern materials, **Nanite** vehicle models, **Lumen** and **Niagara**. Race shadows are temporarily disabled in this alpha. |
 
 > Here, **Original** refers to the more faithful edition of the **Unreal port**. Both columns below show editions of this project.
 
@@ -74,10 +87,10 @@ Two editions have been developed in Unreal Engine. Each has its own assets and s
 
 | Technology | Use in the project |
 | :--- | :--- |
-| **Nanite** | Virtualized geometry for vehicle models and environment assets in the current working build. |
+| **Nanite** | Virtualized geometry for vehicle models. The reconstructed courses currently use runtime geometry. |
 | **Lumen** | Dynamic global illumination and reflections. |
 | **Niagara** | Smoke, fire, explosions and particle effects. |
-| **Virtual Shadow Maps** | Dynamic shadows for vehicles and environments. |
+| **Shadows** | Menu carousel shadows are active; race shadows in Revived are temporarily disabled. |
 | **PBR materials** | Surfaces that respond to light, including metal, paint, roughness and bodywork details. |
 
 The screenshots and video show a **work in progress**. Handling, balance and visual polish continue to evolve.
@@ -152,6 +165,8 @@ It supports tuning speed, thrust, acceleration, grip, steering, damage, ammuniti
 
 This editor supports the project's approach: experimenting with handling and balance to give each vehicle its own place in the racing experience.
 
+**Share your setups:** use **Save As** to export a JSON configuration, then [open a GitHub issue](https://github.com/ArthurReboulSalze/HiOctane-Revived/issues/new) and attach it. Include the game version, edition, vehicles changed and what feels better. Use **Load File** to try shared setups, or **Save & Apply** and start a new race to apply your own changes.
+
 <p align="center">
   <a href="media/Editor.png"><img src="media/Editor.png" alt="The Hi-Octane Vehicle Tuning editor showing global and individual settings for the Revived edition" width="100%"></a>
 </p>
@@ -170,9 +185,9 @@ The goal is to develop **Revived** into a more complete modern interpretation of
 
 ## About this repository
 
-For now, this repository is a **project showcase**: a presentation, screenshots and vehicle artwork. **No game source code or playable builds are published here.**
+This repository is a **project showcase**: a presentation, screenshots and vehicle artwork. **No game source code or build files are stored here.** The playable Windows alpha is available on [**itch.io**](https://artur3d.itch.io/hi-octane-revived).
 
-**A first playable version of the game will be released soon.**
+**Feedback and gameplay ideas are welcome.** Please [share your impressions, report bugs and upload vehicle tuning configurations through GitHub Issues](https://github.com/ArthurReboulSalze/HiOctane-Revived/issues). Ideas for **Revived** are especially welcome: handling, weapons, boost, race balance, track design and new mechanics. For bug reports, include the version, edition, steps to reproduce and your PC specifications.
 
 **Credits** — Hi-Octane: Bullfrog Productions / Electronic Arts. C++ reconstruction and reference: [Alexander Wolf — hi-octane202x](https://github.com/woalexan/hi-octane202x). Unreal port, project direction and Revived asset integration: Arthur Reboul Salze.
 
